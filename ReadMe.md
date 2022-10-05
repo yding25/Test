@@ -20,16 +20,32 @@ Step 3: Install necessary packages (pytorch, networkx, cv2, etc)
 pytorch == 1.12.0, networkx = 2.6.3, cv2 = 4.6.0
 
 ## Part 1: Train Vision-Based Safety Estimator
+Enter CARLA simulator
 ```
-Step 1: run ./CarlaUE4.sh # open the carla platform
-Step 2: collect_data.py # collect data
-Step 3: split_data.py # split data into train and test
-Step 4: process_data.py # generate X (input) and Y (output)
+Step 1: run ./CarlaUE4.sh
 ```
 
+Collect image data (an existing dataset: https://www.dropbox.com/scl/fo/3cxbsuzxiak6qnbd7atiz/h?dl=0&rlkey=3o04anx3dkdg2j9eo8ksxa972)
 ```
-Step 4.1: train_ANN.py # start training
-Step 4.2: train_XGBoost.py # get precision, recall and accuracy
+Step 2: collect_data.py
+```
+
+Split data into train and test
+```
+Step 3: split_data.py
+```
+
+Generate X (input) and Y (output)
+```
+Step 4: process_data.py
+```
+
+Start training
+```
+Step 5 (option 1): train_ANN.py
+```
+```
+Step 5 (option 2): train_SVM.py
 ```
 
 ## Part 2: running vision-based TMPUD (abstract simualation)
