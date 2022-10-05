@@ -1,13 +1,23 @@
-# Our project name is temporarily called 'Test'
+# Test (temporary name)
 
-## Installation
+## Environment
+ubuntu (version 18.04 has been tested) and CARLA (version 0.9.10 has been tested)
+
+## Install Test
+
 ```
-Step 1: Download 'Test' and place it in PythonAPI folder
+Step 1: Download and install CARLA
+```
+Detailed instruction can be found in https://carla.readthedocs.io/en/0.9.10/start_quickstart/
+
+```
+Step 2: Download 'Test' and place it in CARLA's PythonAPI folder
 ```
 
 ```
-Step 2: Install necessary packages (pytorch, networkx, cv2, etc)
+Step 3: Install necessary packages (pytorch, networkx, cv2, etc)
 ```
+pytorch == 1.12.0, networkx = 2.6.3, cv2 = 4.6.0
 
 ## Part 1: Train Vision-Based Safety Estimator
 ```
