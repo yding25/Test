@@ -40,7 +40,7 @@ Generate X (input) and Y (output)
 Step 4: process_data.py
 ```
 
-Start training (an pretrained model is provided in /models: pretrained_safety_model_town05_ANN.pt)
+Start training (an pretrained model titled pretrained_safety_model_town05_ANN.pt: https://www.dropbox.com/scl/fo/3cxbsuzxiak6qnbd7atiz/h?dl=0&rlkey=3o04anx3dkdg2j9eo8ksxa972)
 ```
 Step 5 (option 1): train_ANN.py
 Step 5 (option 2): train_SVM.py
