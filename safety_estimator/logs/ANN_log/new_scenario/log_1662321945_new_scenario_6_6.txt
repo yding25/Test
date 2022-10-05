@@ -1,0 +1,256 @@
+model structure: Net0(
+  (fc1): Linear(in_features=32768, out_features=1024, bias=True)
+  (dropout1): Dropout(p=0.5, inplace=False)
+  (fc2): Linear(in_features=1024, out_features=2, bias=True)
+)
+params: {'train_batch': 16, 'test_batch': 16, 'epochs': 50, 'learning_rate': 0.05, 'gamma': 0.1, 'step_size': 30, 'model': 0, 'interval': 500}
+------------------------------
+Train: loss_avg:0.5555, accuracy:73.37%
+Test: loss_avg:0.4736, accuracy:77.93%
+Precision: 0.7714
+Recall: 0.7466
+------------------------------
+Train: loss_avg:0.4891, accuracy:77.60%
+Test: loss_avg:0.4562, accuracy:79.62%
+Precision: 0.7648
+Recall: 0.8110
+------------------------------
+Train: loss_avg:0.4661, accuracy:78.92%
+Test: loss_avg:0.4442, accuracy:80.08%
+Precision: 0.7938
+Recall: 0.7722
+------------------------------
+Train: loss_avg:0.4545, accuracy:79.61%
+Test: loss_avg:0.4535, accuracy:79.20%
+Precision: 0.8061
+Recall: 0.7275
+------------------------------
+Train: loss_avg:0.4391, accuracy:80.50%
+Test: loss_avg:0.4355, accuracy:80.08%
+Precision: 0.7902
+Recall: 0.7783
+------------------------------
+Train: loss_avg:0.4329, accuracy:80.81%
+Test: loss_avg:0.4258, accuracy:81.07%
+Precision: 0.7806
+Recall: 0.8245
+------------------------------
+Train: loss_avg:0.4194, accuracy:81.70%
+Test: loss_avg:0.4289, accuracy:80.90%
+Precision: 0.8248
+Recall: 0.7481
+------------------------------
+Train: loss_avg:0.4097, accuracy:81.82%
+Test: loss_avg:0.4231, accuracy:81.23%
+Precision: 0.8124
+Recall: 0.7753
+------------------------------
+Train: loss_avg:0.4064, accuracy:82.11%
+Test: loss_avg:0.4209, accuracy:81.02%
+Precision: 0.8166
+Recall: 0.7632
+------------------------------
+Train: loss_avg:0.3954, accuracy:82.62%
+Test: loss_avg:0.4424, accuracy:80.13%
+Precision: 0.7753
+Recall: 0.8064
+------------------------------
+Train: loss_avg:0.3876, accuracy:82.88%
+Test: loss_avg:0.4399, accuracy:81.23%
+Precision: 0.7768
+Recall: 0.8366
+------------------------------
+Train: loss_avg:0.3850, accuracy:83.19%
+Test: loss_avg:0.4194, accuracy:82.05%
+Precision: 0.7854
+Recall: 0.8446
+------------------------------
+Train: loss_avg:0.3820, accuracy:83.17%
+Test: loss_avg:0.4300, accuracy:81.84%
+Precision: 0.7872
+Recall: 0.8351
+------------------------------
+Train: loss_avg:0.3714, accuracy:83.72%
+Test: loss_avg:0.4084, accuracy:82.61%
+Precision: 0.8220
+Recall: 0.7989
+------------------------------
+Train: loss_avg:0.3697, accuracy:83.95%
+Test: loss_avg:0.4221, accuracy:82.49%
+Precision: 0.8150
+Recall: 0.8064
+------------------------------
+Train: loss_avg:0.3690, accuracy:84.38%
+Test: loss_avg:0.4129, accuracy:82.61%
+Precision: 0.8086
+Recall: 0.8200
+------------------------------
+Train: loss_avg:0.3601, accuracy:84.62%
+Test: loss_avg:0.4287, accuracy:82.23%
+Precision: 0.8334
+Recall: 0.7722
+------------------------------
+Train: loss_avg:0.3555, accuracy:84.89%
+Test: loss_avg:0.4408, accuracy:81.93%
+Precision: 0.8154
+Recall: 0.7903
+------------------------------
+Train: loss_avg:0.3472, accuracy:85.32%
+Test: loss_avg:0.4211, accuracy:82.47%
+Precision: 0.8102
+Recall: 0.8135
+------------------------------
+Train: loss_avg:0.3510, accuracy:85.01%
+Test: loss_avg:0.4276, accuracy:82.59%
+Precision: 0.8391
+Recall: 0.7738
+------------------------------
+Train: loss_avg:0.3438, accuracy:85.61%
+Test: loss_avg:0.4334, accuracy:82.19%
+Precision: 0.8066
+Recall: 0.8115
+------------------------------
+Train: loss_avg:0.3377, accuracy:85.71%
+Test: loss_avg:0.4400, accuracy:81.39%
+Precision: 0.7943
+Recall: 0.8095
+------------------------------
+Train: loss_avg:0.3354, accuracy:86.08%
+Test: loss_avg:0.4252, accuracy:82.45%
+Precision: 0.8126
+Recall: 0.8089
+------------------------------
+Train: loss_avg:0.3309, accuracy:85.86%
+Test: loss_avg:0.4458, accuracy:82.35%
+Precision: 0.8022
+Recall: 0.8235
+------------------------------
+Train: loss_avg:0.3266, accuracy:86.23%
+Test: loss_avg:0.4579, accuracy:81.65%
+Precision: 0.8059
+Recall: 0.7974
+------------------------------
+Train: loss_avg:0.3266, accuracy:86.70%
+Test: loss_avg:0.4326, accuracy:82.91%
+Precision: 0.8506
+Recall: 0.7672
+------------------------------
+Train: loss_avg:0.3212, accuracy:86.48%
+Test: loss_avg:0.4601, accuracy:82.09%
+Precision: 0.8213
+Recall: 0.7858
+------------------------------
+Train: loss_avg:0.3198, accuracy:87.01%
+Test: loss_avg:0.4492, accuracy:81.86%
+Precision: 0.8320
+Recall: 0.7642
+------------------------------
+Train: loss_avg:0.3121, accuracy:87.13%
+Test: loss_avg:0.4747, accuracy:82.94%
+Precision: 0.8016
+Recall: 0.8411
+------------------------------
+Train: loss_avg:0.3060, accuracy:87.27%
+Test: loss_avg:0.4870, accuracy:82.19%
+Precision: 0.7898
+Recall: 0.8406
+------------------------------
+Train: loss_avg:0.2800, accuracy:88.79%
+Test: loss_avg:0.4506, accuracy:83.12%
+Precision: 0.8260
+Recall: 0.8069
+------------------------------
+Train: loss_avg:0.2616, accuracy:89.26%
+Test: loss_avg:0.4493, accuracy:83.26%
+Precision: 0.8359
+Recall: 0.7964
+------------------------------
+Train: loss_avg:0.2586, accuracy:89.59%
+Test: loss_avg:0.4538, accuracy:83.24%
+Precision: 0.8215
+Recall: 0.8170
+------------------------------
+Train: loss_avg:0.2541, accuracy:89.80%
+Test: loss_avg:0.4507, accuracy:83.17%
+Precision: 0.8313
+Recall: 0.8004
+------------------------------
+Train: loss_avg:0.2519, accuracy:89.76%
+Test: loss_avg:0.4545, accuracy:83.33%
+Precision: 0.8326
+Recall: 0.8029
+------------------------------
+Train: loss_avg:0.2521, accuracy:89.83%
+Test: loss_avg:0.4535, accuracy:83.38%
+Precision: 0.8424
+Recall: 0.7903
+------------------------------
+Train: loss_avg:0.2559, accuracy:89.73%
+Test: loss_avg:0.4530, accuracy:83.15%
+Precision: 0.8340
+Recall: 0.7959
+------------------------------
+Train: loss_avg:0.2486, accuracy:89.95%
+Test: loss_avg:0.4581, accuracy:83.36%
+Precision: 0.8427
+Recall: 0.7893
+------------------------------
+Train: loss_avg:0.2495, accuracy:89.92%
+Test: loss_avg:0.4567, accuracy:83.10%
+Precision: 0.8328
+Recall: 0.7964
+------------------------------
+Train: loss_avg:0.2477, accuracy:90.07%
+Test: loss_avg:0.4580, accuracy:83.36%
+Precision: 0.8369
+Recall: 0.7974
+------------------------------
+Train: loss_avg:0.2513, accuracy:90.10%
+Test: loss_avg:0.4578, accuracy:83.24%
+Precision: 0.8323
+Recall: 0.8009
+------------------------------
+Train: loss_avg:0.2467, accuracy:90.25%
+Test: loss_avg:0.4615, accuracy:82.96%
+Precision: 0.8295
+Recall: 0.7974
+------------------------------
+Train: loss_avg:0.2403, accuracy:90.52%
+Test: loss_avg:0.4643, accuracy:83.45%
+Precision: 0.8409
+Recall: 0.7944
+------------------------------
+Train: loss_avg:0.2497, accuracy:90.04%
+Test: loss_avg:0.4612, accuracy:83.22%
+Precision: 0.8298
+Recall: 0.8039
+------------------------------
+Train: loss_avg:0.2451, accuracy:90.38%
+Test: loss_avg:0.4635, accuracy:82.91%
+Precision: 0.8219
+Recall: 0.8074
+------------------------------
+Train: loss_avg:0.2429, accuracy:90.42%
+Test: loss_avg:0.4669, accuracy:83.17%
+Precision: 0.8310
+Recall: 0.8009
+------------------------------
+Train: loss_avg:0.2461, accuracy:90.32%
+Test: loss_avg:0.4651, accuracy:83.19%
+Precision: 0.8304
+Recall: 0.8024
+------------------------------
+Train: loss_avg:0.2419, accuracy:90.51%
+Test: loss_avg:0.4657, accuracy:83.31%
+Precision: 0.8319
+Recall: 0.8034
+------------------------------
+Train: loss_avg:0.2378, accuracy:90.23%
+Test: loss_avg:0.4695, accuracy:83.03%
+Precision: 0.8243
+Recall: 0.8069
+------------------------------
+Train: loss_avg:0.2412, accuracy:90.72%
+Test: loss_avg:0.4672, accuracy:83.50%
+Precision: 0.8407
+Recall: 0.7959

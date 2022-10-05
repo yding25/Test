@@ -1,0 +1,4 @@
+TP:1495 TN:1875 FP:414 FN:494
+accuracy of SVM: 78.78%
+precision of SVM: 78.31%
+recall of SVM: 75.16%
