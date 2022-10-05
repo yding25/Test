@@ -40,13 +40,12 @@ Generate X (input) and Y (output)
 Step 4: process_data.py
 ```
 
-Start training
+Start training (an pretrained model is provided in /models: pretrained_safety_model_town05_ANN.pt)
 ```
 Step 5 (option 1): train_ANN.py
-```
-```
 Step 5 (option 2): train_SVM.py
 ```
+
 
 ## Run vision-based GLAD
 Generate service request
